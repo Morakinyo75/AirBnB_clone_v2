@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-#  Fabric script that generates a .tgz archive from the
-# contents of the web_static folder of your AirBnB Clone by morakinyo75
+# Fabfile to distribute an archive to a web server.
 import os.path
 from fabric.api import env
 from fabric.api import put
